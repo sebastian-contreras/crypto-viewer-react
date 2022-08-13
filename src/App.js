@@ -3,8 +3,8 @@ import Crypto from './component/Crypto';
 
 function App() {
   return (
-    <div className="app">
-      <h1>React Crypto</h1>
+    <div className="container-fluid">
+      <h1 className='text-center'>React Crypto</h1>
       <Crypto></Crypto>
     </div>
   );
